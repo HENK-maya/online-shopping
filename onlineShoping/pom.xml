@@ -15,6 +15,15 @@
 
 
 	<dependencies>
+	<!-- Linking Backend Project With Frontend Project -->
+		<dependency>
+			<groupId>com.nit</groupId>
+			<artifactId>shoppingBackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+
+
 		<!-- JAVA EE API -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
@@ -31,8 +40,9 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- Spring Web MVC -->
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+		 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
